@@ -23,7 +23,7 @@ https://github.com/UrmiM/Capstone/blob/master/Data/Data_Format_Example.png
 2. Also, there is no conversion data, therefore classification was not possible.
 3. Linear Regression was implemented to predict the "Time Spent per View" with dummified features for month, day of week, viewing device, browser type, time of day etc. but the r2 for the model is very low.
 4. Random Forest Regressor was implemented as well for the same feature set, but there was no improvement seen in the prediction. Cross Validation using the train_test_split.
-5. If a conversion percentage is assumed and a Logistic Classification model was fit on the data an accuracy of 85% is observed.
+5. Fitted a Logistic Classification Model, by assuming 20% randomly selected users with number of views greater than the mean converted, accuracy of about 85%.
 6. Gives indication that if the content type, size was known and adding varied weights on the content files can give us prediction for possible conversion.
 
 ### Some Insights
