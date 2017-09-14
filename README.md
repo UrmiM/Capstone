@@ -6,13 +6,13 @@ A once-in-a-generation communication revolution is underway: a shift from emails
 Eltropy’s technology allows client-facing teams to leverage Messaging platforms like iMessage, SMS, Facebook Messenger etc. to engage prospects and clients in a whole new way. Which results in an 11x increase in client engagement and Sales conversion metrics.
 
 ### Data as a door to find customers' behavior
-What does the data tell us?
-Does the behavior of the customer differ based on geographical locations, industry type, time of day, day of week, month?
-Can we identify on-the-fence customers? How soon can we do that?
-Are there any underlying "View" patterns specific to a certain industry type? Can we generalize for all?
-Can we use insights from one industry for another?
-What can help the business leaders in focusing and prioritizing efforts and brain power?
-Recommendation for future data collection efforts.
+1. What does the data tell us?
+2. Does the behavior of the customer differ based on geographical locations, industry type, time of day, day of week, month?
+3. Can we identify on-the-fence customers? How soon can we do that?
+4. Are there any underlying "View" patterns specific to a certain industry type? Can we   generalize for all customers?
+5. Can we use insights from one industry for another?
+6. What can help the business leaders in focusing and prioritizing efforts and brain power?
+7. Recommendation for future data collection efforts.
 
 ### Data Format
 Data was from four customers of Eltropy, from varying industries, of user activities "Share" and "View". The data had about 12 features, all but one ("Time spent in seconds") being categorical features. Each row is an activity. The features being in the following format.
