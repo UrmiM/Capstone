@@ -16,8 +16,7 @@ Recommendation for future data collection efforts.
 
 ### Data Format
 Data was from four customers of Eltropy, from varying industries, of user activities "Share" and "View". The data had about 12 features, all but one ("Time spent in seconds") being categorical features. Each row is an activity. The features being in the following format.
-![alt text][logo]
-[logo]: https://github.com/UrmiM/Capstone/blob/master/Data/Data_Format_Example.png
+https://github.com/UrmiM/Capstone/blob/master/Data/Data_Format_Example.png
 
 ### Truth about the Data
 ..* The data has 6000 rows but information is for only 600 users. It is not possible to get good predictions since no information is available about the content. The only feature with good signal is "Time Spent In Seconds".
