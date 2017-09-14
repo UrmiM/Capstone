@@ -19,20 +19,20 @@ Data was from four customers of Eltropy, from varying industries, of user activi
 https://github.com/UrmiM/Capstone/blob/master/Data/Data_Format_Example.png
 
 ### Truth about the Data
-..* The data has 6000 rows but information is for only 600 users. It is not possible to get good predictions since no information is available about the content. The only feature with good signal is "Time Spent In Seconds".
-..* Also, there is no conversion data, therefore classification was not possible.
-..* Linear Regression was implemented to predict the "Time Spent per View" with dummified features for month, day of week, viewing device, browser type, time of day etc. but the r2 for the model is very low.
-..* Random Forest Regressor was implemented as well for the same feature set, but there was no improvement seen in the prediction. Cross Validation using the train_test_split.
-..* If a conversion percentage is assumed and a Logistic Classification model was fit on the data an accuracy of 85% is observed.
-..* Gives indication that if the content type, size was known and adding varied weights on the content files can give us prediction for possible conversion.
+1. The data has 6000 rows but information is for only 600 users. It is not possible to get good predictions since no information is available about the content. The only feature with good signal is "Time Spent In Seconds".
+2. Also, there is no conversion data, therefore classification was not possible.
+3. Linear Regression was implemented to predict the "Time Spent per View" with dummified features for month, day of week, viewing device, browser type, time of day etc. but the r2 for the model is very low.
+4. Random Forest Regressor was implemented as well for the same feature set, but there was no improvement seen in the prediction. Cross Validation using the train_test_split.
+5. If a conversion percentage is assumed and a Logistic Classification model was fit on the data an accuracy of 85% is observed.
+6. Gives indication that if the content type, size was known and adding varied weights on the content files can give us prediction for possible conversion.
 
 ### Some Insights
-..* The distribution of the view time across the industries varies from a mean of 1 minute to 4 minutes.
-..* The maximum views happened during the weekdays across all the industries except one which had an unusual pattern of the views peaking on Thursdays.
-..* Study in-depth why this pattern exists and whether it increases view rate.
-..* Future data collection should include more content and conversion information.
+1. The distribution of the view time across the industries varies from a mean of 1 minute to 4 minutes.
+2. The maximum views happened during the weekdays across all the industries except one which had an unusual pattern of the views peaking on Thursdays.
+3. Study in-depth why this pattern exists and whether it increases view rate.
+4. Future data collection should include more content and conversion information.
 
 ### Company's Response
-..* Very excited to see the data visualization of user activity for all customers compared to each other.
-..* This analysis will help them show their customers what can be done with the data.
-..* Could potentially convince the customers to release more data for more predictive analyses in future.  
+1. Very excited to see the data visualization of user activity for all customers compared to each other.
+2. This analysis will help them show their customers what can be done with the data.
+3. Could potentially convince the customers to release more data for more predictive analyses in future.  
