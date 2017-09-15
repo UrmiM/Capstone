@@ -1,21 +1,24 @@
-# User Activity Data Analysis for SalesTech StartUp ELTROPY
+# User Activity Data Analysis for SalesTech Start-Up
 
-### A little about ELTROPY
-Eltropy empowers financial services companies to engage clients and sell financial products over Text Messaging.
+### A little about the company
+It empowers financial services companies to engage clients and sell financial products over Text Messaging.
 A once-in-a-generation communication revolution is underway: a shift from emails, phone calls to Messaging. 95% of text messages are opened and read within 3 minutes, and responded to within 90 seconds.
-Eltropy’s technology allows client-facing teams to leverage Messaging platforms like iMessage, SMS, Facebook Messenger etc. to engage prospects and clients in a whole new way. Which results in an 11x increase in client engagement and Sales conversion metrics.
+It’s technology allows client-facing teams to leverage Messaging platforms like iMessage, SMS, Facebook Messenger etc. to engage prospects and clients in a whole new way. Which results in an 11x increase in client engagement and Sales conversion metrics.
 
 ### Data as a door to find customers' behavior
-1. What does the data tell us?
+1. What does the data tell us? Customer Engagement?
 2. Does the behavior of the customer differ based on geographical locations, industry type, time of day, day of week, month?
 3. Can we identify on-the-fence customers? How soon can we do that?
 4. Are there any underlying "View" patterns specific to a certain industry type? Can we   generalize for all customers?
 5. Can we use insights from one industry for another?
 6. What can help the business leaders in focusing and prioritizing efforts and brain power?
 7. Recommendation for future data collection efforts.
+8. Can we cluster all the users based on viewing device?
+9. Is there a relationship between view duration, number of views and the viewing device &  browser?
+10. Recommendation for future data collection efforts.
 
 ### Data Format
-Data was from four customers of Eltropy, from varying industries, of user activities "Share" and "View". The data had about 12 features, all but one ("Time spent in seconds") being categorical features. Each row is an activity. The features being in the following format.
+Data was from four customers, from varying industries, of user activities "Share" and "View". The data had about 12 features, all but one ("Time spent in seconds") being categorical features. Each row is an activity. The features being in the following format.
 https://github.com/UrmiM/Capstone/blob/master/Data/Data_Format_Example.png
 
 ### Truth about the Data
@@ -35,4 +38,12 @@ https://github.com/UrmiM/Capstone/blob/master/Data/Data_Format_Example.png
 ### Company's Response
 1. Very excited to see the data visualization of user activity for all customers compared to each other.
 2. This analysis will help them show their customers what can be done with the data.
-3. Could potentially convince the customers to release more data for more predictive analyses in future.  
+3. Could potentially convince the customers to release more data for more predictive analyses in future.
+4. The recommendations for future data collection very helpful.  
+
+### Learnings  
+1. Meaningful and useful insights can be drawn from simple data.
+2. It is difficult to predict from data with very little signal. How to identify data which has low signal? Maybe domain knowledge would be a great place to start or your model performance will definitely indicate it.
+3. Always keep the audience in mind and how they can benefit from your analyses.
+4. What actionable steps can be taken from the analyses? If an analyses only identifies a problem and does not point to a possible root cause, it has failed in its purpose.
+5. The analyses is only good if the performance of the analyses can be measured in some tangible way.
