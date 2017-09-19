@@ -46,3 +46,6 @@ https://github.com/UrmiM/Capstone/blob/master/Data/Data_Format_Example.png
 3. Always keep the audience in mind and how they can benefit from your analyses.
 4. What actionable steps can be taken from the analyses? If an analyses only identifies a problem and does not point to a possible root cause, it has failed in its purpose.
 5. The analyses is only good if the performance of the analyses can be measured in some tangible way.
+
+Here is a link to the presentation:
+https://github.com/UrmiM/Capstone/blob/master/Capstone_Presentation.pdf
