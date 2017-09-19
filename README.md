@@ -28,7 +28,7 @@ https://github.com/UrmiM/Capstone/blob/master/Data/Data_Format_Example.png
 5. Fitted a Logistic Classification Model, by assuming 20% randomly selected users with number of views greater than the mean converted, accuracy of about 85%.
 6. Gives indication that if the content type, size was known and adding varied weights on the content files can give us prediction for possible conversion.
 
-### Some Insights
+### Some Insights and Recommendations
 1. The distribution of the view time across the industries varies from a mean of 1 minute to 4 minutes.
 2. The maximum views happened during the weekdays across all the industries except one which had an unusual pattern of the views peaking on Thursdays.
 3. Study in-depth why this pattern exists and whether it increases view rate.
