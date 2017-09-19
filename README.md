@@ -12,10 +12,9 @@ It’s technology allows client-facing teams to leverage Messaging platforms lik
 4. Are there any underlying "View" patterns specific to a certain industry type? Can we   generalize for all customers?
 5. Can we use insights from one industry for another?
 6. What can help the business leaders in focusing and prioritizing efforts and brain power?
-7. Recommendation for future data collection efforts.
-8. Can we cluster all the users based on viewing device?
-9. Is there a relationship between view duration, number of views and the viewing device &  browser?
-10. Recommendation for future data collection efforts.
+7. Can we cluster all the users based on viewing device?
+8. Is there a relationship between view duration, number of views and the viewing device &  browser?
+9. Recommendation for future data collection efforts.
 
 ### Data Format
 Data was from four customers, from varying industries, of user activities "Share" and "View". The data had about 12 features, all but one ("Time spent in seconds") being categorical features. Each row is an activity. The features being in the following format.
